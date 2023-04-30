@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
+.Task-date {
+  display: flex;
+  flex-direction: column;
+  width: 5.5rem;
+  height: 5.5rem;
+  border: 1px solid #b25dd9;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-family: "Rajdhani", sans-serif;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Task-date__month {
+  font-size: 0.75rem;
+  font-weight: bold;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.Task-date__year {
+  font-size: 0.75rem;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.Task-date__day {
+  font-size: 1.5rem;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+}
